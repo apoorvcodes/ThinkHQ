@@ -1,11 +1,15 @@
 import type { NextPage } from "next";
+import Feat from "../components/Features";
 import { Hero } from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Wave from "../components/Wave";
 const Home: NextPage = () => {
   return (
-    <div className="pl-4 pr-4 md:pl-24 md:pr-24 bg-moon w-full min-h-screen text-white">
+    <div className=" bg-moon w-full min-h-screen text-white">
       <Navbar />
       <Hero />
+      <Wave/>
+      <Feat/>
     </div>
   );
 };

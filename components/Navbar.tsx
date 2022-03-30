@@ -13,7 +13,7 @@ const Navbar = () => {
     });
   }, []);
   return (
-    <div className="flex pt-6   pb-6 justify-between items-center">
+    <div className="flex pt-6 pl-4 pr-4 md:pl-24 md:pr-24  pb-6 justify-between items-center">
       <div className="flex flex-row space-x-4 justify-center items-center">
         <div className="font-bold text-2xl md:text-3xl p-2 text-white bg-prime rounded-md">
           HQ
