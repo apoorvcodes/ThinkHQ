@@ -7,7 +7,9 @@ export const Hero = () => {
         <div className="text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white to-prime">
           One stop AI destination
         </div>
-        <div className="text-5xl md:text-9xl font-extrabold text-text">ReThink</div>
+        <div className="text-5xl md:text-9xl font-extrabold text-text">
+          ReThink
+        </div>
         <div className="text=xl md:text-2xl font-bold text-white">
           Imagine all new posibilities with ReThink, play around with AI based
           on gpt-3

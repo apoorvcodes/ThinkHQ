@@ -8,8 +8,8 @@ const Home: NextPage = () => {
     <div className=" bg-moon w-full min-h-screen text-white">
       <Navbar />
       <Hero />
-      <Wave/>
-      <Feat/>
+      <Wave />
+      <Feat />
     </div>
   );
 };
